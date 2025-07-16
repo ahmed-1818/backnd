@@ -1,0 +1,10 @@
+Flask
+flask-cors
+flask-sqlalchemy
+python-dotenv
+PyMuPDF
+pandas
+PyPDF2
+langchain
+sentence-transformers
+langchain-groq
