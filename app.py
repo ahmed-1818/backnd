@@ -471,7 +471,9 @@ def serve_react(path):
         return send_from_directory(app.static_folder, path)
     else:
         return send_from_directory(app.static_folder, "index.html")
-
+@app.route("/")
+def hello():
+    return "Hello World" 
 # === Run App ===
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
