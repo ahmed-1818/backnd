@@ -1,0 +1,33 @@
+# Python __pycache__ and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Flask env files
+.env
+*.env
+
+# Firebase or secret config
+firebase_config.json
+
+# Virtual environments
+venv/
+.venv/
+
+# Frontend build (optional if you rebuild often)
+node_modules/
+build/
+
+# Big files
+*.zip
+*.csv
+*.log
+uploads/
+*.sqlite3
+
+# OS / IDE files
+.DS_Store
+*.swp
+Thumbs.db
+.vscode/
+.idea/
